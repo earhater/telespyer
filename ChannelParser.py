@@ -1,9 +1,7 @@
 from telethon import TelegramClient
 from telethon.tl import functions
-from icecream import ic
-from telethon.tl.functions.users import GetFullUserRequest
 
-from database.models.AlchemyCore import AlchemyCore
+from database.core.AlchemyCore import AlchemyCore
 from database.models.User import User
 
 

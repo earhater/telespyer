@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from telethon import TelegramClient
 import asyncio
 from ChannelParser import ChannelParser
-from database.models.AlchemyCore import AlchemyCore
+from database.core.AlchemyCore import AlchemyCore
 
 #load env file
 load_dotenv()

@@ -1,12 +1,9 @@
 from datetime import datetime
 
 from sqlalchemy import Column, Integer, TIMESTAMP
-from sqlalchemy.orm import DeclarativeBase
+from sqlalchemy.orm import DeclarativeBase, declarative_base
 
-
-class Base(DeclarativeBase):
-    pass
-
+Base = declarative_base()
 class BaseModel(Base):
     __abstract__ = True
 
